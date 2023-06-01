@@ -1,0 +1,24 @@
+@font-face {
+    font-family: antidote;
+    src: url("antidote.fon") format("fon");
+}
+
+@font-face {
+    font-family: Daydream;
+    src: url("Daydream.ttf") format("truetype");
+}
+
+/* Depixel Halbfett */
+
+@font-face {
+    font-family: Depixel;
+    src: url("DePixelHalbfett.ttf") format("truetype");
+    font-weight: bold;
+}
+
+/* Depixel */
+
+@font-face {
+    font-family: Depixel;
+    src: url("DePixelSchmal.ttf") format("truetype");
+}

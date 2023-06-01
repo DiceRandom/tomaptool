@@ -1,0 +1,50 @@
+@import url("fonts/fonts.css");
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background: #fff;
+    font-family: "Depixel";
+}
+
+input{
+    font-family: "Depixel";
+}
+
+h1{
+    font-size: 1em;
+}
+
+h2{
+    margin: 0;
+    font-size: 1em;
+}
+
+#content {
+    float: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#resizeinputs {
+    width: 15%;
+
+}
+#resizecontrols{
+    justify-content: center;
+}
+
+#urlInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}

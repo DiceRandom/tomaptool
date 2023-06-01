@@ -1,0 +1,33 @@
+<!-- allow the user to upload a url and convert it into a command -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>/tomap command creator</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="content">
+                <h1>/tomap command creator</h1>
+                <h2>created by dice</h2>
+                <p>&nbsp;</p>
+                <form id="urlInput" name="myForm" action="" method="GET">
+                    Enter URL <br>
+                    <input type="text" name="inputbox" value="" placeholder="URL"> <br>
+                        <p>resize? <input type="checkbox" id="resizebox" name="resize" value="1"></p>
+                            <div id="resizecontrols">
+                                <input type="number" id="resizeinputs" name="width" value="" placeholder="Width"    >
+                                <input type="number" id="resizeinputs" name="height" value="" placeholder="Height"  >
+                            </div>
+                            <br>
+                    <input type="button" name="button" value="Convert" onClick="testResults(this.form)">
+                </form>
+                <p id="result">result command</p>
+                <button onclick="copyToClipboard('result')">Copy to Clipboard</button>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script type="text/javascript" src="js/convert.js"></script>
